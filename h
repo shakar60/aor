@@ -108,3 +108,18 @@ local 5Tab = Window:CreateTab("📜 Admin Commands", nil) -- Title, Image
 local 6Tab = Window:CreateTab("📜 Hubs And Guis", nil) -- Title, Image
 local 7Tab = Window:CreateTab("📜 More FE", nil) -- Title, Image
 local 8Tab = Window:CreateTab("📜 Credits", nil) -- Title, Image
+
+
+local Paragraph = 1Tab:CreateParagraph({Title = "Welcome to USH Home Page!", Content = "We will update this page every week!"})
+
+local Slider = 2Tab:CreateSlider({
+Name = "Walkspeed Slider",
+Range = {0, 700},
+Increment = 1,
+Suffix = "WS",
+CurrentValue = 16,
+Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+Callback = function(Value)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end,
+})
