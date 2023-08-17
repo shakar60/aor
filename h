@@ -30,7 +30,7 @@ Actions = {
 [1] = {
 Text = 'Click here to get the key <--',
 OnPress = function()
-https://raw.githubusercontent.com/shakar60/KeySystem.1/main/283
+https://rekonise.com/get-key-b7oww
 print('Pressed')
 end,
 }
@@ -98,3 +98,13 @@ end,
 }
 }
 })
+
+-- Tabs 
+local 1Tab = Window:CreateTab("🏡 Home", nil) -- Title, Image
+local 2Tab = Window:CreateTab("📜 Scripts", nil) -- Title, Image
+local 3Tab = Window:CreateTab("📜 Mini Executors", nil) -- Title, Image
+local 4Tab = Window:CreateTab("📜 AimLock & Aimbot", nil) -- Title, Image
+local 5Tab = Window:CreateTab("📜 Admin Commands", nil) -- Title, Image
+local 6Tab = Window:CreateTab("📜 Hubs And Guis", nil) -- Title, Image
+local 7Tab = Window:CreateTab("📜 More FE", nil) -- Title, Image
+local 8Tab = Window:CreateTab("📜 Credits", nil) -- Title, Image
